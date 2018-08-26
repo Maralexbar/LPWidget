@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="80dp"
+    android:background="#00FF4081"
+    android:padding="@dimen/widget_margin">
+
+    <TextView
+        android:id="@+id/lp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/appwidget_text"
+        android:text="LP:"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        tools:text="LP" />
+
+
+
+
+    <ProgressBar
+        android:id="@+id/lpbar_med"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="152dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:max="87"
+        android:minHeight="15dp"
+        android:progress="27"
+        android:visibility="invisible"
+        android:progressBackgroundTint="#60ffbb33"
+        android:progressTint="@android:color/holo_orange_light" />
+
+    <ProgressBar
+        android:id="@+id/lpbar_red"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="152dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:max="87"
+        android:minHeight="15dp"
+        android:progress="10"
+        android:visibility="invisible"
+        android:progressBackgroundTint="#60ff4444"
+        android:progressTint="@android:color/holo_red_light" />
+
+    <ProgressBar
+        android:id="@+id/lpbar_full"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="152dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="15dp"
+        android:max="87"
+        android:visibility="invisible"
+        android:minHeight="15dp"
+        android:progress="67"
+
+        android:progressBackgroundTint="#6069f0ae"
+        android:progressTint="@android:color/holo_blue_bright" />
+
+    <TextView
+        android:id="@+id/current"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lp_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="45/87"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold" />
+
+</RelativeLayout>
