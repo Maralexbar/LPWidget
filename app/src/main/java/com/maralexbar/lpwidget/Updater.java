@@ -158,7 +158,7 @@ public class Updater extends Service {
         return START_STICKY;
     }
 
-    
+
     public void Notification(String txt) {
 
 
