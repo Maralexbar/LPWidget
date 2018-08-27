@@ -12,6 +12,14 @@ Si tienes algun problema o sugerencia puedes abrir un [Issues](https://github.co
 
 # Descargar
 
+[Descargar](https://github.com/Maralexbar/LPWidget/releases)
+
+# Proximas Cosas a Agregar
+
+*Poder elegir entre ambas versiones (EN y JP)
+*Un icono
+*Una previa al widget (ahora esta con el example)
+*Sacar datos directamente del juego (requiere root)
 
 
 # Imagenes
